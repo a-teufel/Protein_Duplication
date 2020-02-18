@@ -14,7 +14,7 @@ require(ggforce)
 rm(list = ls())
 
 
-#script to figure that shows anc. binding and divergence
+#script to draw figure that shows anc. binding and divergence
 
 #at .0001
 survival.value=c(-5.34086620541)
