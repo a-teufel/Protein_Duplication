@@ -566,4 +566,4 @@ g_bar<-g_bar+ theme(legend.position = "none",
 
 pp<-plot_grid(g2,g3,g_bar,labels=c('A','B','C'),nrow=3,ncol=1,align='v')
 
-save_plot("sur_A_B_violin.pdf",pp, nrow=3,ncol=2,   base_aspect_ratio = 1.3)
+save_plot("Fig6.pdf",pp, nrow=3,ncol=2,   base_aspect_ratio = 1.3)
