@@ -265,31 +265,31 @@ Compare_get_div_t<-function(B,C){
 }
 
 
-survival.data.WTC <- get.dataC(paste("E:/Mar_Sims/M_SIM_WT_anc/",sep=""))
-survival.data.Un1C <- get.dataC(paste('E:/Mar_Sims/M_SIM1_anc/',sep=""))
-survival.data.Un2C <- get.dataC(paste('E:/Mar_Sims/M_SIM2_anc/',sep=""))
-survival.data.Un3C <- get.dataC(paste('E:/Mar_Sims/M_SIM3_anc/',sep=""))
-survival.data.Un4C <- get.dataC(paste('E:/Mar_Sims/M_SIM4_anc/',sep=""))
-survival.data.Un5C <- get.dataC(paste('E:/Mar_Sims/M_SIM_WT_nobind_anc/',sep=""))
-survival.data.Un6C <- get.dataC(paste('E:/Mar_Sims/M_SIM5_anc/',sep=""))
+survival.data.WTC <- get.dataC(paste('data/M_SIM_WT_anc/',sep=""))
+survival.data.Un1C <- get.dataC(paste('data/M_SIM1_anc/',sep=""))
+survival.data.Un2C <- get.dataC(paste('data/M_SIM2_anc/',sep=""))
+survival.data.Un3C <- get.dataC(paste('data/M_SIM3_anc/',sep=""))
+survival.data.Un4C <- get.dataC(paste('data/M_SIM4_anc/',sep=""))
+survival.data.Un5C <- get.dataC(paste('data/M_SIM_WT_nobind_anc/',sep=""))
+survival.data.Un6C <- get.dataC(paste('data/M_SIM5_anc/',sep=""))
 
-survival.data.WTB <- get.dataB(paste("E:/Mar_Sims/M_SIM_WT_anc/",sep=""))
-survival.data.Un1B <- get.dataB(paste('E:/Mar_Sims/M_SIM1_anc/',sep=""))
-survival.data.Un2B <- get.dataB(paste('E:/Mar_Sims/M_SIM2_anc/',sep=""))
-survival.data.Un3B <- get.dataB(paste('E:/Mar_Sims/M_SIM3_anc/',sep=""))
-survival.data.Un4B <- get.dataB(paste('E:/Mar_Sims/M_SIM4_anc/',sep=""))
-survival.data.Un5B <- get.dataB(paste('E:/Mar_Sims/M_SIM_WT_nobind_anc/',sep=""))
-survival.data.Un6B <- get.dataB(paste('E:/Mar_Sims/M_SIM5_anc/',sep=""))
+survival.data.WTB <- get.dataB(paste('data/M_SIM_WT_anc/',sep=""))
+survival.data.Un1B <- get.dataB(paste('data/M_SIM1_anc/',sep=""))
+survival.data.Un2B <- get.dataB(paste('data/M_SIM2_anc/',sep=""))
+survival.data.Un3B <- get.dataB(paste('data/M_SIM3_anc/',sep=""))
+survival.data.Un4B <- get.dataB(paste('data/M_SIM4_anc/',sep=""))
+survival.data.Un5B <- get.dataB(paste('data/M_SIM_WT_nobind_anc/',sep=""))
+survival.data.Un6B <- get.dataB(paste('data/M_SIM5_anc/',sep=""))
 
 
 
-survival.data.WT <- get.dataB(paste("E:/Mar_Sims/M_SIM_WT_anc/",sep=""))
-survival.data.Un1 <- get.dataB(paste('E:/Mar_Sims/M_SIM1_anc/',sep=""))
-survival.data.Un2 <- get.dataB(paste('E:/Mar_Sims/M_SIM2_anc/',sep=""))
-survival.data.Un3 <- get.dataB(paste('E:/Mar_Sims/M_SIM3_anc/',sep=""))
-survival.data.Un4 <- get.dataB(paste('E:/Mar_Sims/M_SIM4_anc/',sep=""))
-survival.data.Un5 <- get.dataB(paste('E:/Mar_Sims/M_SIM_WT_nobind_anc/',sep=""))
-survival.data.Un6 <- get.dataB(paste('E:/Mar_Sims/M_SIM5_anc/',sep=""))
+survival.data.WT <- get.dataB(paste('data/M_SIM_WT_anc/',sep=""))
+survival.data.Un1 <- get.dataB(paste('data/M_SIM1_anc/',sep=""))
+survival.data.Un2 <- get.dataB(paste('data/M_SIM2_anc/',sep=""))
+survival.data.Un3 <- get.dataB(paste('data/M_SIM3_anc/',sep=""))
+survival.data.Un4 <- get.dataB(paste('data/M_SIM4_anc/',sep=""))
+survival.data.Un5 <- get.dataB(paste('data/M_SIM_WT_nobind_anc/',sep=""))
+survival.data.Un6 <- get.dataB(paste('data/M_SIM5_anc/',sep=""))
 
 
 #put it in a dataframe
@@ -374,13 +374,13 @@ g2<-g2 + theme(legend.position = "none",
 g2<-g2
 
 
-survival.data.WT <- get.dataC(paste("E:/Mar_Sims/M_SIM_WT_anc/",sep=""))
-survival.data.Un1 <- get.dataC(paste('E:/Mar_Sims/M_SIM1_anc/',sep=""))
-survival.data.Un2 <- get.dataC(paste('E:/Mar_Sims/M_SIM2_anc/',sep=""))
-survival.data.Un3 <- get.dataC(paste('E:/Mar_Sims/M_SIM3_anc/',sep=""))
-survival.data.Un4 <- get.dataC(paste('E:/Mar_Sims/M_SIM4_anc/',sep=""))
-survival.data.Un5 <- get.dataC(paste('E:/Mar_Sims/M_SIM_WT_nobind_anc/',sep=""))
-survival.data.Un6 <- get.dataC(paste('E:/Mar_Sims/M_SIM5_anc/',sep=""))
+survival.data.WT <- get.dataC(paste('data/M_SIM_WT_anc/',sep=""))
+survival.data.Un1 <- get.dataC(paste('data/M_SIM1_anc/',sep=""))
+survival.data.Un2 <- get.dataC(paste('data/M_SIM2_anc/',sep=""))
+survival.data.Un3 <- get.dataC(paste('data/M_SIM3_anc/',sep=""))
+survival.data.Un4 <- get.dataC(paste('data/M_SIM4_anc/',sep=""))
+survival.data.Un5 <- get.dataC(paste('data/M_SIM_WT_nobind_anc/',sep=""))
+survival.data.Un6 <- get.dataC(paste('data/M_SIM5_anc/',sep=""))
 
 
 survival.data <- data.frame(time=c(survival.data.WT$survival.divergence, 
